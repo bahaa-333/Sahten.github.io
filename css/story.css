@@ -1,0 +1,157 @@
+.navbar{
+    font-family: dream avenue;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10%;
+   
+  }
+  .dec{
+    width: auto;
+    height: auto;
+  }
+  .txt{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: dream avenue;
+    padding-top: 30px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 9px;
+    text-align: center;
+  }
+  @media only screen and (max-width: 768px) {
+    .txt{
+      font-size: large;
+      text-align: center;
+      padding-top:35px;
+    }
+    .tag .tagged{
+      width: 80%;
+      
+    }
+  }
+  .tag{
+    width: 600px;
+    height: auto;
+    justify-content: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
+  /* Newsletter */
+.newsletter{
+    background-color: #EAE0D5;
+    height: auto;
+    width: auto;
+  }
+  
+  .newsletter .logo-text,
+  .newsletter .description{
+    color: black;
+    font-size: 120%;
+    text-align: center;
+    font-family: dream avenue;
+    font-weight: bolder;
+  }
+  .newletter-container{
+    display: grid;
+    justify-items: center;
+    row-gap: 3rem;
+    padding: 2rem;
+  }
+  
+  .newsletter .logo-text{
+    padding-top: 9px;
+    color: burlywood;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    font-size: 3rem;
+    font-weight: 500px;
+    text-decoration: none;
+  }
+  .newsletter-inputBox{
+    position: relative;
+    height: 4rem;
+    max-width: 400px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .newletter-input{
+    height: 100%;
+    width: 100%;
+    border-radius: 3rem;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 0 9rem 0 2rem;
+  }
+  .newsletter-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-color: burlywood;
+    border-radius: 0 3rem 3rem 0;
+    height: 4rem;
+    width: 8rem;
+    background-color: rosybrown;
+  }
+  
+  
+  /*footer*/
+  .last{
+    background-color: #79443B;
+    height: auto;
+    width: 100%;
+  }
+  .fouter{
+    background-color: #79443B;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .fouter .fou{
+    padding-top: 5%;
+    padding-left: 6%;
+    float: left;
+  }
+  ul{
+    list-style-type: none;
+    text-decoration:none;
+    color: black;
+  }
+  .tem {
+    list-style-type: none;
+    text-decoration:none;
+    color: white;
+    line-height: 2;
+    text-align: center;
+  }
+  .ter{
+    float: right;
+    padding-left: 14%;
+    padding-top: 2%;
+    padding-right: 10%;
+  }
+  .cntc{
+    height: 30px;
+    width: 30px;
+  }
+  .ull{
+    align-items: left;
+    float: right;
+    text-decoration: none;
+  }
+  .wht{
+    background-color: white;
+    width: auto;
+    height: 1px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .end{
+    color: white;
+    font-size: 120%;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 2%;
+  }
